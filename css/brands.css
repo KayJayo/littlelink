@@ -43,8 +43,8 @@ button {
   padding: 14px 12px 12px 12px;
   letter-spacing: 0.1px;
   white-space: wrap;
-  outline: none;
-  border-radius: 8px;
+  outline: #000000 solid 3px ;
+  border-radius: 2px;
   cursor: pointer;
   
 }     
