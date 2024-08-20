@@ -88,7 +88,6 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 100%;
   background-color: #114c86;
-  text-color: #bc922b;
 }
 body {
   font-size: 18px;
@@ -104,11 +103,13 @@ h1 {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 800;
+  color: #bc922b;
 }
 h1 {
   font-size: 24px;
   line-height: 64px;
   letter-spacing: 0;
+  color: #bc922b;
 }
 
 /* Larger than phablet */
