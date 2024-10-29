@@ -72,7 +72,7 @@ body {
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
-video {
+#stars {
   position: fixed;
   top: 0;
   left: 0;
