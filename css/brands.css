@@ -194,8 +194,8 @@ button:hover,
 
 /* Bluesky */
 .button.button-bluesky {
-  color: #000000;
-  background-color: #F3F9FF;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
   border: 1px solid #212121;
 }
 .button.button-bluesky:hover,
@@ -269,7 +269,7 @@ button:hover,
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  background-color: #5865f2;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
@@ -360,7 +360,7 @@ button:hover,
 /* GitHub */
 .button.button-github {
   color: #ffffff;
-  background-color: #000000;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
   border: 1px solid #FFFFFF;
 }
 .button.button-github:hover,
@@ -821,7 +821,7 @@ button:hover,
 /* Steam Dark */
 .button.button-steam-dark {
   color: #ffffff;
-  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-steam-dark:hover,
 .button.button-steam-dark:focus {
@@ -831,7 +831,7 @@ button:hover,
 /* Steam */
 .button.button-steam {
   color: #ffffff;
-  background-image: linear-gradient(90deg, #08BBFF, #2B75FF);
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
@@ -1058,7 +1058,7 @@ button:hover,
 /* X */
 .button.button-x {
   color: #FFFFFF;
-  background-color: #000000;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
   border: 1px solid #FFFFFF;
 }
 .button.button-x:hover,
@@ -1079,7 +1079,7 @@ button:hover,
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
-  background-color: #000000;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
   border: 1px solid #FFFFFF;
 }
 .button.button-yt:hover,
