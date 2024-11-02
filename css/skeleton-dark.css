@@ -14,23 +14,6 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 12/29/2014
 */
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Code
-- Spacing
-- Utilities
-*
-* You'll find the button css in css/brands.css.
-*
-*/
-
-/* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
   width: 100%;
