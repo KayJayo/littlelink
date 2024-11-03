@@ -944,7 +944,7 @@ button:hover,
 /* Twitter (archiving soon, see 'X') */
 .button.button-twit {
   color: #ffffff;
-  background-color: #1da1f2;
+  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-twit:hover,
 .button.button-twit:focus {
