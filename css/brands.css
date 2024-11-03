@@ -838,6 +838,8 @@ button:hover,
 /* Steam */
 .button.button-steam {
   color: #ffffff;
+  border:3px solid limegreen;
+  border-radius:3px;
   background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-steam:hover,
@@ -1067,6 +1069,8 @@ button:hover,
 /* X */
 .button.button-x {
   color: #FFFFFF;
+  border:3px solid limegreen;
+  border-radius:3px;
   background-image: linear-gradient(to bottom, #9929ea, #5808fb);
 }
 .button.button-x:hover,
