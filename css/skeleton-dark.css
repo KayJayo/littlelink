@@ -66,6 +66,13 @@ body {
    bottom: 0;
    z-index: -1;
 }
+.email {
+  transition: transform .2s;
+  text-align: center;
+}
+.email:hover {
+  transform: scale(1.2);
+}
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
