@@ -31,6 +31,7 @@
 
 .button,
 button {
+  transition: transform .2s;
   display: inline-block;
   text-decoration: none;
   height: 100%;
@@ -48,7 +49,9 @@ button {
   cursor: pointer;
   
 }     
-button:hover,
+.button:hover {
+  transform: scale(1.2);
+}
 .button:focus {
   color: #212121;
   border-color: #888;
