@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    font-family: 'Pixellari';
+    color: White;
+}
+.center {
+    text-align: center;
+    margin-bottom: 4%;
+}
+.topbar {
+    transition: transform .2s;
+}
+.topbar:hover {
+    transform: scale(1.2)
+}
+a {
+    text-decoration: none;
+}
+.topbuttons {
+    font-size: 24;
+    color: orangered;
+    font-style: normal;
+    display: inline;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: transform .2s;
+}
+.topbuttons:hover {
+    transform: scale(1.2);
+}
+.avatar {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: center;
+    height: auto;
+    width: 20%;
+    transition: transform .2s;
+}
+.avatar:hover {
+    transform: scale(1.2);
+}
+.para {
+    font-size: 24px;
+}
+.photofolia {
+    display: inline;
+    float: center;
+    width: auto;
+    height: 200px;
+    margin-right: 2%;
+}
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.title {
+    font-family: 'Crang';
+    color: white;
+    display: inline;
+    text-align: center;
+    font-size: 64px;
+}
+.online {
+    font-family: 'Crang', sans;
+    color: orangered;
+    display: inline;
+    text-align: center;
+    font-size: 36px;
+}
+@font-face {
+    font-family: 'Crang';
+    src: url('../fonts/Crang.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pixellari';
+    src: url('../fonts/Pixellari.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

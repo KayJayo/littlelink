@@ -1,0 +1,57 @@
+.video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.center {
+    text-align: center;
+    margin-bottom: 4%;
+}
+.heading {
+    color:orangered;
+    font-size: 48px;
+    font-family: 'Heading';
+}
+a {
+    font-family: 'Body';
+    font-size: 32px;
+    display: inline;
+    color: orangered;
+    transition: transform .2s;
+}
+a:hover {
+    transform: scale(1.1);
+}
+.link {
+    color: orangered;
+    display: inline;
+    transition: transform .2s;
+}
+.link:hover {
+    transform: scale(1.1);
+}
+p {
+    font-family: 'body';
+    font-size: 24px;
+    color: white;
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Body';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Pixellari.woff2') format(woff2);
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Heading';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Crang.woff2') format(woff2);
+}

@@ -82,7 +82,7 @@ h1 {
   color: #ffffff;
 }
 h1 {
-  font-size: 24px;
+  font-size: 12px;
   line-height: 64px;
   letter-spacing: 0;
   color: #ffffff;
@@ -99,16 +99,14 @@ h1 {
 p {
   color: white;
 }
-
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: #4899F7;
+.center {
+  text-align: center;
+  margin-bottom: 4%;
+  transition: transform .2s;
 }
-a:hover {
-  color: #7AB8FF;
+.center:hover {
+  transform: scale(1.1);
 }
-
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -125,7 +123,20 @@ pre > code {
   padding: 1rem 1.5rem;
   white-space: pre;
 }
-
+a {
+  text-decoration: none;
+}
+.topbuttons {
+  font-size: 12;
+  color: orangered;
+  display: inline;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition: transform .2s;
+}
+.topbuttons:hover {
+  transform: scale(1.1);
+}
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
@@ -180,8 +191,11 @@ hr {
 .avatar {
   width: 40%;
   height: auto;
-  object-fit: cover;
   background-position: center;
+  transition: transform .2s;
+}
+.avatar:hover {
+  transform: scale(1.2);
 }
 .rainbowbar {
   width: 100%;

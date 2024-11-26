@@ -198,9 +198,7 @@ button {
 /* Bluesky */
 .button.button-bluesky {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
@@ -273,9 +271,7 @@ button {
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
@@ -366,9 +362,7 @@ button {
 /* GitHub */
 .button.button-github {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
  
 }
 .button.button-github:hover,
@@ -798,9 +792,7 @@ button {
 /* Spotify */
 .button.button-spotify {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
@@ -831,9 +823,7 @@ button {
 /* Steam Dark */
 .button.button-steam-dark {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-steam-dark:hover,
 .button.button-steam-dark:focus {
@@ -843,9 +833,7 @@ button {
 /* Steam */
 .button.button-steam {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
@@ -958,9 +946,7 @@ button {
 /* Twitter (archiving soon, see 'X') */
 .button.button-twit {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-twit:hover,
 .button.button-twit:focus {
@@ -1043,9 +1029,7 @@ button {
 /* Website */
 .button.button-web {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
  
 }
 .button.button-web:hover,
@@ -1075,10 +1059,8 @@ button {
 
 /* X */
 .button.button-x {
-  color: #FFFFFF;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
 }
 .button.button-x:hover,
 .button.button-x:focus {
@@ -1098,9 +1080,7 @@ button {
 /* YouTube */
 .button.button-yt {
   color: #ffffff;
-  border:3px solid limegreen;
-  border-radius:3px;
-  background-image: linear-gradient(to bottom, #9929ea, #5808fb);
+  background-image: linear-gradient(to bottom, #ec6912, #d43707);
  
 }
 .button.button-yt:hover,
