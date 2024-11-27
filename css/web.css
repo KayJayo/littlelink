@@ -9,6 +9,31 @@
     bottom: 0;
     z-index: -1;
 }
+.topbar {
+    transition: transform .2s;
+}
+.topbar:hover {
+    transform: scale(1.2)
+}
+.icon {
+    width: 5%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.topbuttons {
+    font-size: 24;
+    color: orangered;
+    font-style: normal;
+    display: inline;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: transform .2s;
+}
+.topbuttons:hover {
+    transform: scale(1.2);
+}
 .center {
     text-align: center;
     margin-bottom: 4%;
