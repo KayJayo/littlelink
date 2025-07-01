@@ -1,19 +1,4 @@
-/*
-* littlelink V1
-* https://littlelink.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/21/2019
-*
-* Built using:
-*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
+
 .container {
   position: relative;
   width: 100%;
@@ -36,14 +21,6 @@
   float: center;
   box-sizing: border-box;
 }
-
-
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
-
 html {
   font-size: 100%;
   background-color: #114c86;
@@ -65,13 +42,6 @@ body {
    top: 0;
    bottom: 0;
    z-index: -1;
-}
-.email {
-  transition: transform .2s;
-  text-align: center;
-}
-.email:hover {
-  transform: scale(1.1);
 }
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -7,36 +7,67 @@ body {
     text-align: center;
     margin-bottom: 4%;
 }
-.topbar {
-    transition: transform .2s;
+.topicon {
+    margin-bottom: -3px;
+    height: 90px;
+    margin: 2px;
+    width: auto;
+    transition: transform .2s ease;
 }
-.topbar:hover {
-    transform: scale(1.2)
+.topicon:hover {
+    transform: scale(1.04);
+}
+.topbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: orangered;
+    outline: 2px solid black;
+}
+.topbar .topbutton {
+    font-size: 48px;
+    margin: 0 auto;
+    color: black;
+    font-style: normal;
+    display: inline;
+    margin-right: 48px;
+    margin-left: 48px;
+    transition: transform .2s ease;
+}
+.topbar .topbutton:hover {
+    transform: scale(1.2);
+}
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 196px;
+}
+.buttoncontainer:hover {
+    background-color: orange;
+}
+.iconcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+}
+.iconcontainer:hover {
+    background-color: orange;
 }
 a {
     text-decoration: none;
 }
-.topbuttons {
-    font-size: 24;
-    color: orangered;
-    font-style: normal;
-    display: inline;
-    margin-right: 8px;
-    margin-left: 8px;
-    transition: transform .2s;
+.bouncy {
+    font-size: 40px;
+    transition: transform .2s ease;
+    text-decoration: none;
+    color: black;
 }
-.topbuttons:hover {
-    transform: scale(1.2);
-}
-.avatar {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    float: center;
-    height: auto;
-    width: 20%;
-    transition: transform .2s;
-}
-.avatar:hover {
+.bouncy:hover {
     transform: scale(1.2);
 }
 .para {
@@ -60,7 +91,15 @@ a {
     bottom: 0;
     z-index: -1;
 }
+.header {
+    font-family: 'Crang', sans;
+    color: orangered;
+    display: inline;
+    text-align: center;
+    font-size: 32px;
+}
 .title {
+    margin-left: 8px;
     font-family: 'Crang';
     color: white;
     display: inline;
@@ -68,11 +107,12 @@ a {
     font-size: 64px;
 }
 .online {
+    margin-right: 8px;
     font-family: 'Crang', sans;
-    color: orangered;
+    color: black;
     display: inline;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
 }
 @font-face {
     font-family: 'Crang';
