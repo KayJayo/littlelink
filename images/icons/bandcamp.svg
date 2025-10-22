@@ -1,4 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.9991 23.2188C18.1944 23.2188 23.217 18.1961 23.217 12.0009C23.217 5.80563 18.1944 0.782965 11.9991 0.782965C5.80386 0.782965 0.781192 5.80563 0.781192 12.0009C0.781192 18.1961 5.80386 23.2188 11.9991 23.2188Z" stroke="white" stroke-width="1.56238" stroke-miterlimit="10"/>
-<path d="M5.34338 16.0084H18.6549V7.99336H5.34338V16.0084Z" fill="white"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6399A8;}
+	.st1{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="50" cy="50" r="50"/>
+<path class="st1" d="M61.5,68.5h-43l20.1-37.1h43L61.5,68.5z"/>
 </svg>
