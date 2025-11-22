@@ -47,6 +47,7 @@ body {
 .topicon:hover {
     transform: scale(1.04);
 }
+
 .topbar {
   position: fixed;
   top: 0;
@@ -56,7 +57,13 @@ body {
   display: flex;
   align-items: center;
   z-index: 1;
-  background-color: orangered;
+  background: repeating-linear-gradient(
+  45deg,
+  #ffffff,
+  #ffffff 10px,
+  #ff0000 10px,
+  #ff0000 20px
+);
   font-family: "Pixellari";
 }
 .topbar .topbutton {
@@ -108,6 +115,7 @@ body {
     display: inline;
     text-align: center;
     font-size: 64px;
+    text-shadow: black 6px 0 10px;
 }
 .online {
     margin-right: 8px;
@@ -116,6 +124,7 @@ body {
     display: inline;
     text-align: center;
     font-size: 32px;
+    text-shadow: rgb(255, 255, 255) 6px 0 10px;
 }
 .video {
     width: 100vw;
